@@ -8,6 +8,7 @@ public class zadatak1 {
         List<Double> lista2=new ArrayList<>();
         int []novčanice={500,200,100,50,20,10,2,1};
         double []kovanice={0.50,0.20,0.10,0.05,0.02,0.01};
+        int canter=0;
         System.out.print("molim upišite broj date količine novca");
         float novac=  sc.nextFloat();
         System.out.println("Hvala na unesenom broju");
