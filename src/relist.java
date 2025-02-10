@@ -18,7 +18,7 @@ public class relist {
             }
         } while (ucitavaniBroj !=-1);
 
-        for (Integer i:lista){
+        for ( Integer i:lista){
             System.out.print(i+"\n");
         }
    lista.remove(1);
@@ -27,6 +27,11 @@ public class relist {
         System.out.print("\n ispis liste pomoću obicnog fora:");
         for (int i=0; i<lista.size(); i++){
             System.out.print(i+"");}
+        boolean brojProvjera=lista.contains(5);
+        System.out.println("\n"+brojProvjera+"provjera broja 5");
+        int broj32= lista.set(3,20);
+        System.out.println(lista+"nova lista");
+
         }
     }
 
